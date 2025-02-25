@@ -67,7 +67,7 @@ st.subheader("📊 Love Stats – Because Love is Science Too! 😘")
 
 # 1. PIE CHART - "Things I Love About You"
 love_features = pd.DataFrame({
-    "Feature": ["Smile 😊", "Boobs 🔥", "Eyes 👀", "Hair 💇‍♀️", "Voice 🎶", "Personality 💖", "Cuteness 🥰"],
+    "Feature": ["Smile 😊", "Cuteness 🔥", "Eyes 👀", "Hair 💇‍♀️", "Voice 🎶", "Personality 💖", "Cuteness 🥰"],
     "Love Percentage": [30, 25, 15, 10, 8, 7, 5]  # Adjusted love distribution
 })
 fig_pie_features = px.pie(love_features, names="Feature", values="Love Percentage", 
